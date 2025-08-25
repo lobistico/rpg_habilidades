@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvorada RPG - Habilidades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/logo.png" alt="Logo Alvorada" class="logo">
+            <h1>Habilidades dos Personagens</h1>
+            <p class="subtitle">Explore as habilidades únicas dos personagens do universo Alvorada RPG</p>
+        </div>
+    </header>
+
+    <div class="controls">
+        <div class="filters">
+            <div class="filter-group">
+                <label for="personagem-select">Selecionar Personagem:</label>
+                <select id="personagem-select">
+                    <option value="">Carregando personagens...</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="filter-type">Filtrar por Tipo:</label>
+                <select id="filter-type">
+                    <option value="all">Todos os Tipos</option>
+                    <option value="Passivo">Passivo</option>
+                    <option value="Ação de ataque">Ação de ataque</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Reação">Reação</option>
+                    <option value="Ação bônus">Ação bônus</option>
+                    <option value="Ação Completa">Ação Completa</option>
+                    <option value="Transformação">Transformação</option>
+                    <option value="Item">Item</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="filter-grau">Filtrar por Grau:</label>
+                <select id="filter-grau">
+                    <option value="all">Todos os Graus</option>
+                    <option value="1">Grau 1</option>
+                    <option value="2">Grau 2</option>
+                    <option value="3">Grau 3</option>
+                    <option value="4">Grau 4</option>
+                    <option value="5">Grau 5</option>
+                    <option value="6">Grau 6</option>
+                    <option value="7">Grau 7</option>
+                    <option value="8">Grau 8</option>
+                    <option value="9">Grau 9</option>
+                    <option value="10">Grau 10</option>
+                    <option value="11">Grau 11</option>
+                    <option value="12">Grau 12</option>
+                    <option value="13">Grau 13</option>
+                    <option value="14">Grau 14</option>
+                    <option value="15">Grau 15</option>
+                    <option value="Talento Natural">Talento Natural</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="search">Buscar Habilidade:</label>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search" placeholder="Digite para buscar...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="cards-container" class="cards-container">
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Carregando habilidades...</p>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <div class="modal-img-container">
+                <img id="modal-img" src="" alt="" class="modal-img">
+                <div class="modal-header">
+                    <h2 id="modal-title" class="modal-title">
+                        <span id="modal-name"></span>
+                        <span id="modal-grau" class="modal-grau"></span>
+                    </h2>
+                    <p id="modal-type" class="modal-type"></p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p id="modal-description" class="modal-desc"></p>
+                
+                <div class="modal-section">
+                    <h3 class="modal-section-title">Efeitos</h3>
+                    <ul id="modal-effects" class="modal-effects"></ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3 class="modal-section-title">Tags</h3>
+                    <div id="modal-tags" class="tags"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Alvorada RPG &copy; 2023 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
