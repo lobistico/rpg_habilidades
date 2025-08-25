@@ -1,0 +1,19 @@
+{
+    "personagens": [
+        {
+            "nome": "Larsen Thunder",
+            "arquivo": "larsen.json",
+            "descricao": "O Trovão Selvagem é a primeira coisa que existiu, a compressão do caos primordial que foi removido para dar lugar à criação do mundo. Ele é o evento zero, a força que precede a ordem e sustenta a realidade, um fragmento do início que substituiu o próprio criado"
+        },
+        {
+            "nome": "Daichi Kazui",
+            "arquivo": "daichi.json",
+            "descricao": ""
+        },
+        {
+            "nome": "Brendan",
+            "arquivo": "brendan.json",
+            "descricao": ""
+        }
+    ]
+}

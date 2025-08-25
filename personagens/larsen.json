@@ -1,0 +1,279 @@
+[
+    {
+        "nome": "Ancestralidade Selvagem",
+        "grau": "Talento",
+        "tipo": "Passivo",
+        "descricao": "Herdeiro do Rei Esquecido. Sua presença impõe respeito a animais e bestiais, seu corpo é resistente e seus instintos são predatórios.",
+        "efeitos": [
+            "Autoridade natural sobre animais e bestiais.",
+            "Suporta dor e exaustão acima do comum.",
+            "Aliados próximos recebem +1 em acerto.",
+            "Percebe hostilidade instintivamente."
+        ],
+        "tags": [
+            "passivo",
+            "instinto",
+            "liderança"
+        ],
+        "imagem": "img/habilidades/ancestralidade.webp"
+    },
+    {
+        "nome": "Ataque Alfa",
+        "grau": 1,
+        "tipo": "Ação de ataque",
+        "descricao": "Um golpe brutal de espada que não pode ser contido facilmente.",
+        "efeitos": [
+            "Ignora resistência de inimigos médios ou menores.",
+            "Bloqueios ainda recebem metade do dano.",
+            "Empurra ou derruba (Teste de Força).",
+            "Somente ele pode empunhar a espada sem penalidade."
+        ],
+        "tags": [
+            "ataque",
+            "força",
+            "espada"
+        ],
+        "imagem": "img/habilidades/ataque_alfa.webp"
+    },
+    {
+        "nome": "Impacto Alfa",
+        "grau": 2,
+        "tipo": "Ação",
+        "descricao": "Golpeia o solo, liberando uma onda de choque.",
+        "efeitos": [
+            "Área de 3m.",
+            "Teste de Força inimigo.",
+            "Falha: derrubado + 2d6 + Força de dano.",
+            "Sucesso: metade do dano."
+        ],
+        "tags": [
+            "área",
+            "força",
+            "controle"
+        ],
+        "imagem": "img/habilidades/impacto_alfa.webp"
+    },
+    {
+        "nome": "Presa Alfa",
+        "grau": 3,
+        "tipo": "Reação",
+        "descricao": "Contra-ataca instintivamente quando atacado.",
+        "efeitos": [
+            "Reação contra inimigos a 1,5m.",
+            "Ataque imediato com espada.",
+            "Teste de Força inimigo: se falhar, empurrado 3m."
+        ],
+        "tags": [
+            "reação",
+            "instinto",
+            "ataque"
+        ],
+        "imagem": "img/habilidades/presa_alfa.webp"
+    },
+    {
+        "nome": "Rugido Alfa",
+        "grau": 4,
+        "tipo": "Ação bônus",
+        "descricao": "Seu rugido inspira aliados e aterroriza inimigos.",
+        "efeitos": [
+            "Aliados a até 30m: vantagem em Força e ataques corpo a corpo.",
+            "Inimigos: teste de Sabedoria ou ficam amedrontados."
+        ],
+        "tags": [
+            "liderança",
+            "buff",
+            "debuff"
+        ],
+        "imagem": "img/habilidades/rugido_alfa.webp"
+    },
+    {
+        "nome": "Instinto Alfa",
+        "grau": 5,
+        "tipo": "Ação Completa",
+        "descricao": "Ativa seu poder ancestral, tornando-se um predador supremo por 10 turnos.",
+        "efeitos": [
+            "+2 Força e Destreza (máx 22).",
+            "2 ataques por turno.",
+            "Detecta invisíveis.",
+            "Críticos automáticos em inimigos abaixo de 50% da vida.",
+            "Continua lutando por 1 turno mesmo em 0 PV."
+        ],
+        "tags": [
+            "fúria",
+            "buff",
+            "transformação"
+        ],
+        "imagem": "img/habilidades/instinto_alfa.webp"
+    },
+    {
+        "nome": "Caçador Ancestral",
+        "grau": 6,
+        "tipo": "Passivo",
+        "descricao": "Persegue e caça sem falhas.",
+        "efeitos": [
+            "Vantagem em rastrear por cheiro.",
+            "Pode caçar mesmo em ambientes hostis.",
+            "Imune a perder o rastro."
+        ],
+        "tags": [
+            "passivo",
+            "rastreio",
+            "instinto"
+        ],
+        "imagem": "img/habilidades/cacada_sombria.webp"
+    },
+    {
+        "nome": "Cheiro de Sangue",
+        "grau": 7,
+        "tipo": "Passivo",
+        "descricao": "Ferimentos atraem sua fúria predatória.",
+        "efeitos": [
+            "Percebe inimigos feridos automaticamente.",
+            "+1d4 de dano contra inimigos abaixo de 50% PV."
+        ],
+        "tags": [
+            "predador",
+            "instinto",
+            "passivo"
+        ],
+        "imagem": "img/habilidades/cheiro_sangue.webp"
+    },
+    {
+        "nome": "Investida Selvagem",
+        "grau": 8,
+        "tipo": "Ação",
+        "descricao": "Avança como uma besta em fúria, arremessando inimigos no caminho.",
+        "efeitos": [
+            "Move até 6m em linha reta.",
+            "Inimigos no caminho fazem teste de Força ou são derrubados.",
+            "Dano: 1d10 + Força no impacto."
+        ],
+        "tags": [
+            "movimento",
+            "ataque",
+            "selvagem"
+        ],
+        "imagem": "img/habilidades/investida.webp"
+    },
+    {
+        "nome": "Alvorada da Ira",
+        "grau": 9,
+        "tipo": "Ação Completa",
+        "descricao": "Libera energia ancestral em um ataque devastador.",
+        "efeitos": [
+            "Golpe em cone de 6m.",
+            "Todos os inimigos fazem teste de Constituição.",
+            "Falha: 3d10 de dano + atordoamento por 1 turno.",
+            "Sucesso: metade do dano, sem atordoar."
+        ],
+        "tags": [
+            "área",
+            "ira",
+            "poder"
+        ],
+        "imagem": "img/habilidades/alvorada_ira.webp"
+    },
+    {
+        "nome": "Domínio da Espada Alfa",
+        "grau": 10,
+        "tipo": "Passivo",
+        "descricao": "Seu domínio da espada é absoluto.",
+        "efeitos": [
+            "+2 em acerto com espada.",
+            "Ignora cobertura parcial.",
+            "Críticos a partir de 19-20."
+        ],
+        "tags": [
+            "passivo",
+            "espada",
+            "precisão"
+        ],
+        "imagem": "img/habilidades/dominio_espada.webp"
+    },
+    {
+        "nome": "Fúria Ancestral",
+        "grau": 11,
+        "tipo": "Transformação",
+        "descricao": "Desperta a fúria da linhagem bestial.",
+        "efeitos": [
+            "+4 Força temporário.",
+            "Vantagem em todos os testes de Força.",
+            "Imunidade a medo."
+        ],
+        "tags": [
+            "fúria",
+            "buff",
+            "ancestral"
+        ],
+        "imagem": "img/habilidades/furia_ancestral.webp"
+    },
+    {
+        "nome": "Corte da Tempestade",
+        "grau": 12,
+        "tipo": "Ação",
+        "descricao": "Canaliza trovões no golpe, cortando até defesas mágicas.",
+        "efeitos": [
+            "Dano 2d12 + Força.",
+            "Ignora resistência mágica parcial.",
+            "Inimigos atingidos fazem teste de Constituição ou ficam surdos."
+        ],
+        "tags": [
+            "trovão",
+            "ataque",
+            "espada"
+        ],
+        "imagem": "img/habilidades/corte_tempestade.webp"
+    },
+    {
+        "nome": "Predador Implacável",
+        "grau": 13,
+        "tipo": "Passivo",
+        "descricao": "A caçada nunca termina até a presa cair.",
+        "efeitos": [
+            "Ignora penalidade de terreno difícil.",
+            "Sempre alcança inimigos fugindo.",
+            "Pode atacar mesmo após dash."
+        ],
+        "tags": [
+            "passivo",
+            "predador",
+            "mobilidade"
+        ],
+        "imagem": "img/habilidades/predador.webp"
+    },
+    {
+        "nome": "Alfa Supremo",
+        "grau": 14,
+        "tipo": "Ação Completa",
+        "descricao": "Mostra sua supremacia absoluta em combate.",
+        "efeitos": [
+            "Inimigos até 10m fazem teste de Sabedoria.",
+            "Falha: ficam paralisados por 1 turno.",
+            "Aliados recebem vantagem em ataques até o próximo turno."
+        ],
+        "tags": [
+            "liderança",
+            "supremacia",
+            "controle"
+        ],
+        "imagem": "img/habilidades/alfa_supremo.webp"
+    },
+    {
+        "nome": "Herança do Rei Esquecido",
+        "grau": 15,
+        "tipo": "Transformação Final",
+        "descricao": "Ativa todo o poder herdado do antigo rei bestial.",
+        "efeitos": [
+            "+6 Força, +4 Constituição.",
+            "Resistência a todos os danos.",
+            "Pode atacar 3 vezes por turno.",
+            "Imortal por 3 turnos (não cai abaixo de 1 PV)."
+        ],
+        "tags": [
+            "final",
+            "herança",
+            "transformação"
+        ],
+        "imagem": "img/habilidades/heranca_rei.webp"
+    }
+]
