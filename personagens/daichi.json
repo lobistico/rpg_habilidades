@@ -115,7 +115,7 @@
     },
     {
         "nome": "Análise do Sábio e Análise de Fatos",
-        "grau": 9,
+        "grau": 1,
         "tipo": "Conhecimento / Suporte",
         "descricao": "Permite consultar o Sábio (mestre) para obter uma conclusão verdadeira sobre determinado assunto ou tema, de acordo com a forma como a pergunta é feita.",
         "efeitos": [
@@ -132,28 +132,11 @@
         ],
         "imagem": "img/habilidades/analise_sabio_fatos.webp"
     },
-    {
-        "nome": "Sabedoria Crescente",
-        "grau": 7,
-        "tipo": "Bônus / Estratégia",
-        "descricao": "Ao se concentrar em um objetivo estratégico, o jogador aumenta sua sabedoria temporariamente, aplicando maior clareza em análises, conhecimentos e resistências.",
-        "efeitos": [
-            "Concede +1 em Sabedoria por 1 hora.",
-            "O bônus pode ser dobrado em testes de salvaguarda relacionados à sabedoria.",
-            "O bônus também pode ser dobrado em habilidades que exijam análise ou conhecimento."
-        ],
-        "tags": [
-            "sabedoria",
-            "estratégia",
-            "conhecimento",
-            "suporte"
-        ],
-        "imagem": "img/habilidades/sabedoria_crescente.webp"
-    },
+
     {
         "nome": "Identificar Fraquezas",
-        "grau": 8,
-        "tipo": "Análise / Combate",
+        "grau": 3,
+        "tipo": "Ação bônus",
         "custo": "2 de energia",
         "descricao": "Permite discernir informações sobre as fraquezas de um alvo com base na experiência de jogo e em suas características fenotípicas.",
         "efeitos": [
@@ -171,8 +154,8 @@
     },
     {
         "nome": "Acalmar Feras",
-        "grau": 9,
-        "tipo": "Suporte / Influência",
+        "grau": 1,
+        "tipo": "Passivo",
         "descricao": "Permite a Daichi acalmar criaturas ferais ou monstros irracionais, reduzindo seu grau de agressividade e tornando-os mais suscetíveis à sua influência.",
         "efeitos": [
             "O custo varia de acordo com a quantidade de energia gasta.",
@@ -190,8 +173,8 @@
     },
     {
         "nome": "Encanto Irresistível",
-        "grau": 10,
-        "tipo": "Suporte / Influência",
+        "grau":1,
+        "tipo": "Passivo",
         "descricao": "Permite a Daichi acalmar criaturas ou monstros racionais, reduzindo seu grau de agressividade e tornando-os mais suscetíveis à sua influência.",
         "efeitos": [
             "O custo varia de acordo com a quantidade de energia gasta.",
@@ -209,8 +192,8 @@
     },
     {
         "nome": "Inspiração",
-        "grau": 9,
-        "tipo": "Suporte / Motivação",
+        "grau": 2,
+        "tipo": "Passivo",
         "descricao": "Daichi infunde em uma criatura aliada uma sensação de confiança e segurança, concedendo bônus em qualquer tipo de teste realizado.",
         "efeitos": [
             "Afeta um aliado por vez.",
@@ -226,35 +209,23 @@
         ],
         "imagem": "img/habilidades/inspiracao.webp"
     },
-    {
-        "nome": "Transfusão Vital",
-        "grau": 8,
-        "tipo": "Suporte / Cura",
-        "descricao": "Daichi converte sua energia em porcentagem de vida para um aliado, recuperando parte de sua saúde.",
-        "efeitos": [
-            "Afeta um aliado por vez.",
-            "A cada 2 pontos de energia gastos, recupera 10% da vida total do alvo.",
-            "Pode ser usado estrategicamente para manter aliados em combate ou situações críticas."
-        ],
-        "tags": [
-            "suporte",
-            "cura",
-            "energia",
-            "buff"
-        ],
-        "imagem": "img/habilidades/transfusao_vital.webp"
-    },
+
     {
         "nome": "Clareza Ardente do Conhecimento",
-        "grau": 2,
-        "tipo": "Combate / Dano em Área",
+        "grau": 9,
+        "tipo": "Ação",
         "descricao": "Daichi canaliza seu conhecimento ancestral em uma explosão de energia, causando dano de fogo em todos os inimigos em um raio de até 15 metros.",
         "efeitos": [
             "Afeta todos os inimigos na área de 15 metros.",
-            "Grau I: causa 1d6 de dano de fogo ao custo de 1 ponto de energia.",
-            "Grau II: causa 2d8 de dano de fogo ao custo de 3 pontos de energia.",
-            "Grau III: causa 3d8 de dano de fogo ao custo de 5 pontos de energia.",
-            "Criaturas afetadas devem fazer uma salvaguarda de Constituição (CD = 10 + SAB + Proficiência de Daichi) para não ficarem vulneráveis por 1 turno."
+            "Grau I: causa 1d6 de dano de fogo ",
+            "Grau II: causa 2d8 de dano de fogo ",
+            "Grau III: causa 3d8 de dano de fogo ",
+            "Grau IV: causa 4d10 de dano de fogo ",
+            "Grau V: causa 5d10 de dano de fogo ",
+            "Grau VI: causa 6d12 de dano de fogo ",
+            "Grau VII: causa 7d12 de dano de fogo ",
+            "Grau VIII: causa 8d12 de dano de fogo "
+
         ],
         "tags": [
             "combate",
@@ -266,8 +237,8 @@
     },
     {
         "nome": "Verdade Absoluta",
-        "grau": 7,
-        "tipo": "Exploração / Percepção",
+        "grau": 4,
+        "tipo": "Ação bônus",
         "descricao": "Daichi pode perceber a verdadeira natureza de qualquer ser, objeto ou fenômeno, discernindo mentiras, ilusões e intenções ocultas, além de identificar propriedades mágicas de criaturas e objetos.",
         "efeitos": [
             "Ao custo de 3 pontos de energia, a habilidade dura 2 minutos.",
@@ -285,11 +256,11 @@
     },
     {
         "nome": "Guardião da Sabedoria",
-        "grau": 8,
-        "tipo": "Suporte / Proteção",
+        "grau": 3,
+        "tipo": "Ação bônus",
         "descricao": "Daichi invoca um avatar espectral de um sábio ancestral, oferecendo conselhos estratégicos e proteção a ele e seus aliados.",
         "efeitos": [
-            "Ao custo de 4 pontos de energia, o Guardião é invocado por até 1 minuto.",
+            
             "Enquanto ativo, Daichi e aliados recebem vantagem em testes estratégicos (percepção e intuição).",
             "Daichi recebe +2 na CA enquanto o Guardião estiver ativo.",
             "O Guardião pode reduzir o dano de um ataque físico ou mágico contra Daichi em 50%, uma vez por invocação.",
@@ -306,8 +277,8 @@
     },
     {
         "nome": "Análise do Sábio",
-        "grau": 7,
-        "tipo": "Especialista / Suporte",
+        "grau": 5,
+        "tipo": "Passivo",
         "descricao": "Daichi ativa a consciência do Grande Sábio, uma parte de seu Nen que atua como banco de dados e analista lógico, permitindo armazenar informações e gerar conclusões estratégicas.",
         "efeitos": [
             "Ação bônus ao custo de 5 pontos de energia.",
@@ -327,11 +298,11 @@
     },
     {
         "nome": "Análise de Fatos",
-        "grau": 8,
-        "tipo": "Especialista / Estratégia",
+        "grau": 3,
+        "tipo": "Passivo",
         "descricao": "Daichi ativa a capacidade de análise avançada do Grande Sábio, permitindo prever possíveis desdobramentos futuros com base na situação atual.",
         "efeitos": [
-            "Ação ao custo de 10 pontos de energia.",
+            
             "Alcance: pessoal; duração: concentração, até 1 minuto.",
             "Permite ao Grande Sábio examinar as circunstâncias atuais e gerar previsões sobre eventos futuros.",
             "As previsões são baseadas em lógica e informações disponíveis, variando em precisão conforme a complexidade da situação e a quantidade de dados.",
@@ -349,8 +320,8 @@
     },
     {
         "nome": "Sabedoria Crescente",
-        "grau": 9,
-        "tipo": "Especialista / Suporte Mental",
+        "grau": 2,
+        "tipo": "Passivo",
         "descricao": "Daichi invoca a energia do Grande Sábio para aumentar temporariamente sua sabedoria e habilidades mentais, ampliando clareza e capacidade de aprendizado.",
         "efeitos": [
             "Ação ao custo de 15 pontos de energia.",
@@ -371,11 +342,11 @@
     },
     {
         "nome": "Confiança",
-        "grau": 8,
-        "tipo": "Suporte / Emissão de Nen",
+        "grau": 1,
+        "tipo": "Passivo",
         "descricao": "Daichi emite uma aura de confiança e tranquilidade que afeta uma criatura dentro do alcance, fortalecendo sua segurança e autocontrole.",
         "efeitos": [
-            "Ação ao custo de 15 pontos de energia.",
+            
             "Alcance: 9 metros; duração: concentração, até 1 hora.",
             "A criatura afetada recebe +2 em testes de resistência contra efeitos de medo e encantamento.",
             "Vantagem em testes de resistência contra efeitos que causem confusão ou distração mental.",
@@ -392,11 +363,11 @@
     },
     {
         "nome": "Alívio de Tensão",
-        "grau": 7,
-        "tipo": "Suporte / Conjuração de Nen",
+        "grau": 1,
+        "tipo": "Passivo",
         "descricao": "Daichi utiliza sua aura de Nen para aliviar tensão e estresse de uma criatura tocada, promovendo calma e relaxamento mental.",
         "efeitos": [
-            "Ação ao custo de 10 pontos de energia.",
+            
             "Alcance: toque; duração: instantânea.",
             "Alivia condições mentais e emocionais negativas como estresse, medo ou raiva.",
             "Não afeta condições físicas diretamente, mas pode reduzir sintomas associados à tensão mental, como dores de cabeça ou insônia.",
@@ -413,11 +384,11 @@
     },
     {
         "nome": "Transfusão Vital",
-        "grau": 8,
-        "tipo": "Suporte / Conjuração de Nen",
+        "grau": 1,
+        "tipo": "Ação bônus",
         "descricao": "Daichi realiza uma transfusão de energia vital, curando uma criatura tocada ao custo de sua própria energia.",
         "efeitos": [
-            "Ação ao custo de 15 pontos de energia.",
+            
             "Alcance: toque; duração: instantânea.",
             "Transfere parte da energia de Daichi para curar os ferimentos da criatura alvo.",
             "A quantidade de pontos de vida curados depende da energia disponível em Daichi; quanto mais energia, mais eficaz a cura.",
@@ -434,13 +405,13 @@
     },
     {
         "nome": "Aura Curativa",
-        "grau": 9,
-        "tipo": "Suporte / Conjuração de Nen",
+        "grau": 7,
+        "tipo": "Ação",
         "descricao": "Daichi irradia uma aura de cura, beneficiando todas as criaturas amigáveis em um raio de 9 metros, restaurando seus ferimentos com base na energia investida.",
         "efeitos": [
-            "Ação ao custo de 20 pontos de energia.",
+            
             "Alcance: 9 metros; duração: instantânea.",
-            "Restaura pontos de vida de todas as criaturas aliadas na área.",
+            "Restaura 4d8 pontos de vida de todas as criaturas aliadas na área.",
             "A eficácia da cura depende da quantidade de energia investida; quanto mais energia, maior a cura.",
             "Não pode ser usada para curar a si mesmo.",
             "Exemplo: útil em batalhas intensas para manter múltiplos aliados de pé simultaneamente."
@@ -457,10 +428,10 @@
     {
         "nome": "Trindade do Equilíbrio",
         "grau": 10,
-        "tipo": "Especialista / Suporte Avançado",
+        "tipo": "Talento",
         "descricao": "Daichi funde os poderes do Grande Sábio, da Gula e do Apaziguador para criar uma aura de equilíbrio e harmonia ao seu redor, beneficiando aliados próximos com sabedoria, cura e proteção mental.",
         "efeitos": [
-            "Ação ao custo de 100 pontos de energia.",
+            
             "Alcance: 9 metros; duração: concentração, até 3 turnos.",
             "Sabedoria do Grande Sábio: bônus de +2 em testes de Sabedoria e Inteligência para aliados afetados.",
             "Cura da Gula: recuperam 1d8 + 2 pontos de vida no início de cada turno.",
@@ -478,8 +449,8 @@
     },
     {
         "nome": "Conhecimento Ancestral",
-        "grau": 6,
-        "tipo": "Talento / Especialista",
+        "grau": 5,
+        "tipo": "Talento",
         "descricao": "Daichi acessa o vasto conhecimento e sabedoria de seus ancestrais, permitindo vislumbrar verdades ocultas e revelar segredos antigos.",
         "efeitos": [
             "Visão dos Antigos: Uma vez por descanso longo, Daichi pode canalizar o conhecimento ancestral para obter vislumbres do passado ou do futuro, fazendo uma pergunta específica e recebendo uma resposta concisa conforme informações disponíveis.",
@@ -496,12 +467,11 @@
     },
     {
         "nome": "Asfixia Gástrica",
-        "grau": 8,
-        "tipo": "Combate / Conjuração de Nen",
+        "grau": 5,
+        "tipo": "Ação bônus",
         "descricao": "Daichi cria um gás tóxico que causa asfixia e danos internos aos inimigos, prejudicando sua capacidade de respirar e infligindo dano contínuo.",
         "efeitos": [
-            "Ação ao custo de 20 pontos de energia.",
-            "Alcance: toque; duração: concentração, até 1 minuto.",
+          
             "O alvo deve fazer um teste de resistência de Constituição contra a CD de habilidade da Gula.",
             "Falha: alvo começa a sufocar, sofrendo dano de asfixia no início de cada turno até que a concentração acabe ou o alvo escape da área.",
             "Dano de asfixia cumulativo: 1d6 no primeiro turno, aumentando 1d6 a cada turno subsequente.",
@@ -518,11 +488,11 @@
     },
     {
         "nome": "Devorar Essência",
-        "grau": 9,
-        "tipo": "Combate / Conjuração de Nen",
+        "grau": 6,
+        "tipo": "Ação",
         "descricao": "Daichi consome a essência vital de uma criatura tocada, causando dano necrótico e enfraquecendo sua resistência e vigor.",
         "efeitos": [
-            "Ação ao custo de 25 pontos de energia.",
+            
             "Alcance: toque; duração: instantânea.",
             "O alvo sofre 6d6 de dano necrótico.",
             "Se o alvo falhar em um teste de resistência de Constituição contra a CD da habilidade, recebe -2 em testes de resistência e em sua CA por 5 turnos."
@@ -538,11 +508,11 @@
     },
     {
         "nome": "Abismo Voraz",
-        "grau": 10,
-        "tipo": "Combate / Conjuração de Nen",
+        "grau": 5,
+        "tipo": "Ação",
         "descricao": "Daichi convoca um abismo voraz que devora tudo em seu caminho, causando dano necrótico e engolindo inimigos em um redemoinho de energia negra.",
         "efeitos": [
-            "Ação ao custo de 30 pontos de energia.",
+            
             "Alcance: 9 metros; duração: instantânea.",
             "Cria um abismo dimensional em um ponto dentro do alcance, com área de efeito de 6 metros de diâmetro.",
             "Todas as criaturas na área sofrem 8d4 de dano necrótico.",
@@ -559,12 +529,10 @@
     },
     {
         "nome": "Consumo Desenfreado",
-        "grau": 10,
-        "tipo": "Combate / Conjuração de Nen",
+        "grau": 4,
+        "tipo": "Ação",
         "descricao": "Daichi envolve uma criatura com uma aura voraz que consome sua energia vital, causando dano necrótico contínuo e enfraquecendo-a progressivamente.",
         "efeitos": [
-            "Ação ao custo de 35 pontos de energia.",
-            "Alcance: toque; duração: concentração, até 5 turnos.",
             "A criatura alvo sofre 4d8 de dano necrótico no início de cada turno da Gula.",
             "A cada turno, o alvo faz um teste de resistência de Constituição contra a CD da habilidade; falha reduz sua resistência, causando -1 em testes de resistência e em sua CA até o fim da concentração."
         ],
@@ -579,11 +547,11 @@
     },
     {
         "nome": "Luz Ardente do Conhecimento",
-        "grau": 9,
-        "tipo": "Combate / Conjuração de Nen",
+        "grau": 4,
+        "tipo": "Ação",
         "descricao": "O Grande Sábio de Daichi canaliza energia do conhecimento ancestral em uma explosão de luz ardente que causa dano radiante e pode ofuscar inimigos.",
         "efeitos": [
-            "Ação ao custo de 25 pontos de energia.",
+            
             "Alcance: 18 metros; duração: instantânea.",
             "Cria uma explosão de luz em área de 6 metros de raio.",
             "Todas as criaturas hostis na área fazem teste de resistência de Inteligência contra a CD da habilidade.",
@@ -591,7 +559,7 @@
         ],
         "tags": [
             "combate",
-            "nen",
+
             "dano em área",
             "radiante",
             "controle"
@@ -600,12 +568,11 @@
     },
     {
         "nome": "Aura da Renovação",
-        "grau": 8,
-        "tipo": "Suporte / Cura",
+        "grau": 3,
+        "tipo": "Ação bônus",
         "descricao": "Daichi canaliza sua afinidade com a natureza e a energia vital, criando uma aura que restaura forças, saúde e promove bem-estar espiritual aos aliados próximos.",
         "efeitos": [
-            "Custo: 3 pontos de energia; Alcance: toque ou curto; Duração: instantâneo.",
-            "Cura ferimentos e restaura vitalidade de alvos próximos.",
+                        "Cura ferimentos e restaura vitalidade de alvos próximos.",
             "Pode ser aplicada por toque direto ou emitida em um raio curto ao redor de Daichi.",
             "Recupera 2d8 de vida para cada aliado com ferimento grave.",
             "Promove renovação espiritual e bem-estar, fortalecendo determinação e resistência.",
@@ -625,11 +592,11 @@
     },
     {
         "nome": "Biblioteca Viva",
-        "grau": 8,
-        "tipo": "Especialista / Suporte",
+        "grau": 2,
+        "tipo": "Passivo",
         "descricao": "Daichi ativa o Grande Sábio em sua mente de forma intensa, permitindo acesso instantâneo a conhecimentos armazenados e compartilhamento de habilidades com aliados.",
         "efeitos": [
-            "Custa 1 ação; uso: 1 vez por descanso longo.",
+        
             "Dura 10 minutos.",
             "Garante +5 em qualquer teste de Inteligência ou Sabedoria.",
             "Pode compartilhar conhecimento com um aliado próximo, permitindo que ele use sua proficiência em uma perícia em que Daichi é treinado."
@@ -645,11 +612,11 @@
     },
     {
         "nome": "Núcleo Devorador",
-        "grau": 9,
-        "tipo": "Exploração / Combate",
+        "grau": 15,
+        "tipo": "Ação",
         "descricao": "Daichi concentra a Gula em um ponto, criando um núcleo negro gravitacional que puxa matéria e energia, causando dano e permitindo análise de materiais sugados.",
         "efeitos": [
-            "Custo: 20 pontos de energia; ação completa.",
+            "Custo: 10 pontos de energia; ação completa.",
             "Alcance: 6 metros.",
             "Inimigos na área devem fazer teste de Força ou serem puxados e sofrer 2d8 de dano por compressão.",
             "Objetos ou materiais sugados podem ser armazenados dentro da Gula para análise futura.",
@@ -666,13 +633,14 @@
     },
     {
         "nome": "Olhos do Explorador Eterno",
-        "grau": 7,
-        "tipo": "Exploração / Especialista",
+        "grau": 1,
+        "tipo": "Passivo",
         "descricao": "Daichi possui visão treinada capaz de mapear áreas ao redor, criando um mapa mental permanente e detalhado.",
         "efeitos": [
             "Memoriza automaticamente novas áreas como um mapa mental que nunca se perde.",
             "Vantagem em testes para recordar caminhos, atalhos, armadilhas ou mecanismos escondidos.",
-            "Em níveis mais altos, permite compartilhar o mapa mental com aliados, descrevendo o terreno em detalhes."
+            "Em níveis mais altos, permite compartilhar o mapa mental com aliados, descrevendo o terreno em detalhes.",
+            "Custo: 1 ponto de energia por turno; ação."
         ],
         "tags": [
             "exploração",
@@ -685,12 +653,13 @@
     },
     {
         "nome": "Instinto de Cartógrafo",
-        "grau": 7,
-        "tipo": "Exploração / Especialista",
+        "grau": 1,
+        "tipo": "Passivo",
         "descricao": "Daichi possui percepção espacial impecável, nunca se perdendo em ambientes naturais ou dungeons, podendo criar mapas precisos.",
         "efeitos": [
-            "Nunca se perde em ambientes naturais ou dungeons.",
-            "Pode desenhar mapas precisos apenas observando o caminho.",
+            "Custo: 1 ponto de energia por turno; ação.",
+            "Nunca se pede em ambientes naturais ou dungeons.",
+            "Pode desenhar rmapas precisos apenas observando o caminho.",
             "Testes de Inteligência (Investigação) para entender ruínas, inscrições ou armadilhas ganham vantagem."
         ],
         "tags": [
@@ -704,12 +673,12 @@
     },
     {
         "nome": "Olhar de Horizonte",
-        "grau": 8,
-        "tipo": "Exploração / Percepção",
+        "grau": 1,
+        "tipo": "Ação",
         "descricao": "Daichi foca seu olhar em uma direção, ativando percepção exploratória para detectar longas distâncias e pontos de interesse.",
         "efeitos": [
-            "Ação; uso: 2 vezes por descanso longo.",
-            "Dura 1 minuto.",
+            "Custo: 1 ponto de energia por turno; ação.",
+            "Alcance: Visão",
             "Permite enxergar até 3 vezes mais longe que o normal, mesmo em condições ruins (chuva, neblina, escuridão parcial).",
             "Permite detectar pontos de interesse como fumaça, movimentação de criaturas, clarões mágicos ou estruturas distantes."
         ],
