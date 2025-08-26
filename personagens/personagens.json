@@ -14,6 +14,11 @@
             "nome": "Brendan",
             "arquivo": "brendan.json",
             "descricao": ""
+        },
+        {
+            "nome": "Bally Vandragon",
+            "arquivo": "bally.json",
+            "descricao": ""
         }
     ]
 }

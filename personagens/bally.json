@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Benção do Mestre de Armas",
+        "grau": "1",
+        "tipo": "Passivo",
+        "descricao": "A benção de mestre de armas permite a personagem ser abençoada com qualquer coisa",
+        "efeitos": [
+            "Pode ser abençoado com qualquer coisa basta querer e não querer."
+        ],
+        "tags": [
+            "passivo",
+            "talento",
+            "liderança"
+        ],
+        "imagem": "img/habilidades/ancestralidade.webp"
+    }
+]
