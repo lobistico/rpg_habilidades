@@ -1,0 +1,224 @@
+[
+    {
+        "nome": "PRETO",
+        "grau": "1",
+        "tipo": "Soul Link",
+        "descricao": "Tudo que possui a cor preta pertence a Brendan. Ele pode absorver e manipular qualquer tonalidade de preto, convertendo-a em energia espiritual. Essa energia pode ser usada para fortalecer ataques, defesas ou até criar manifestações de pura escuridão.",
+        "efeitos": [
+            "Pode absorver objetos ou energias de cor preta, drenando sua essência.",
+            "Transforma a cor preta absorvida em energia espiritual para aumentar CORPO ou ESPÍRITO temporariamente.",
+            "Pode canalizar o preto em ataques devastadores de energia.",
+            "Escudos ou armaduras pretas têm sua resistência duplicada sob controle de Brendan.",
+            "Quanto mais preto em volta, mais poderoso ele se torna."
+        ],
+        "tags": [
+            "soul link",
+            "cor",
+            "energia espiritual",
+            "lendário"
+        ],
+        "imagem": "img/habilidades/preto.webp"
+    },
+    {
+        "nome": "Bênção do Behemot",
+        "grau": "3",
+        "tipo": "Talento",
+        "descricao": "O corpo de Brendan foi reforçado após sobreviver ao contato com o verme do Behemot. Sua carne e ossos foram fortalecidos de forma monstruosa, aumentando drasticamente sua resistência e força física.",
+        "efeitos": [
+            "Aumenta permanentemente +2 em CORPO.",
+            "Resistência natural a venenos, doenças e fadiga.",
+            "Capacidade de regenerar ferimentos leves após alguns turnos.",
+            "Sua pele e músculos possuem a dureza comparável ao aço vivo."
+        ],
+        "tags": [
+            "talento",
+            "mutação",
+            "behemot",
+            "corpo"
+        ],
+        "imagem": "img/habilidades/behemot.webp"
+    },
+    {
+        "nome": "Fúria do Behemot",
+        "grau": "2",
+        "tipo": "Habilidade",
+        "descricao": "Quando Brendan entra em um estado de fúria, sua força e resistência aumentam significativamente. Nesse estado, ele se torna uma força imparável, capaz de esmagar obstáculos e inimigos com facilidade.",
+        "efeitos": [
+            "Aumenta +3 em CORPO por 3 turnos.",
+            "Durante a fúria, ataques corpo a corpo causam dano adicional.",
+            "Reduz o dano recebido em 1 ponto enquanto estiver em fúria.",
+            "A fúria pode ser ativada uma vez por cena."
+        ],
+        "tags": [
+            "habilidade",
+            "fúria",
+            "corpo",
+            "behemot"
+        ],
+        "imagem": "img/habilidades/furia.webp"
+    },
+    {
+        "nome": "Guardião dos Companheiros",
+        "grau": "2",
+        "tipo": "Talento",
+        "descricao": "Brendan se fortalece quando luta para proteger seus amigos. Sua ligação emocional com o grupo desperta uma força inabalável e o torna ainda mais resiliente diante do perigo.",
+        "efeitos": [
+            "Sempre que um aliado a até 9m for alvo de ataque, Brendan pode interpor sua defesa, recebendo metade do dano.",
+            "Enquanto estiver ao lado de pelo menos 1 aliado, ganha +1 CORPO e +1 ESPÍRITO.",
+            "Se um aliado cair inconsciente, Brendan entra em estado de fúria protetora: +2 em CORPO temporário até o aliado ser estabilizado ou o combate acabar."
+        ],
+        "tags": [
+            "talento",
+            "protetor",
+            "liderança",
+            "amizade"
+        ],
+        "imagem": "img/habilidades/guardiao.webp"
+    },
+    {
+        "nome": "Punho Kuro",
+        "grau": "3",
+        "tipo": "Soul Link",
+        "descricao": "Brendan concentra o poder do Preto em seu punho, absorvendo toda a escuridão do ambiente e deixando o mundo em preto e branco por um instante. O golpe atinge diretamente a alma do inimigo, tornando-a instável.",
+        "efeitos": [
+            "Causa dano espiritual direto (ignora armaduras físicas).",
+            "O alvo deve passar em um teste de ESPÍRITO (CD baseada no ESPÍRITO de Brendan) ou ficará com a alma instável, sofrendo desvantagem em todas as jogadas de ataque por 1d4 turnos.",
+            "Ambiente fica dessaturado (sem cor) por 1 turno após o impacto."
+        ],
+        "tags": [
+            "soul link",
+            "ataque",
+            "preto",
+            "espiritual"
+        ],
+        "imagem": "img/habilidades/punho_preto.webp"
+    },
+    {
+        "nome": "Chute Kuro",
+        "grau": "3",
+        "tipo": "Soul Link",
+        "descricao": "Brendan canaliza a energia negra em sua perna e desfere um chute devastador que consome a cor ao redor, deixando o campo em preto e branco. O impacto reverbera na alma do inimigo, desequilibrando seu espírito.",
+        "efeitos": [
+            "Causa dano espiritual em área (cone de 3m).",
+            "Alvos atingidos devem passar em um teste de ESPÍRITO ou terão a alma instável, reduzindo sua REFLEXO em -2 por 1d4 turnos.",
+            "Ambiente fica dessaturado (sem cor) por 1 turno após o impacto."
+        ],
+        "tags": [
+            "soul link",
+            "ataque",
+            "preto",
+            "espiritual",
+            "área"
+        ],
+        "imagem": "img/habilidades/chute_preto.webp"
+    },
+    {
+        "nome": "Aura do Titã",
+        "grau": "2",
+        "tipo": "Passiva",
+        "descricao": "Brendan emite uma aura de força e presença que inspira aliados e intimida inimigos próximos.",
+        "efeitos": [
+            "Aliados a até 9m recebem +1 CORPO e +1 ESPÍRITO.",
+            "Inimigos a até 9m sofrem desvantagem em testes de Intimidação e Resistência por 1 turno.",
+            "Dura enquanto Brendan permanecer em pé e consciente."
+        ],
+        "tags": [
+            "passivo",
+            "combate",
+            "buff",
+            "proteção"
+        ],
+        "imagem": "img/habilidades/aura_tita.webp"
+    },
+    {
+        "nome": "Impacto do Titã",
+        "grau": "3",
+        "tipo": "Ativa",
+        "descricao": "Brendan concentra toda sua força e golpeia o chão com suas armas, criando um tremor devastador.",
+        "efeitos": [
+            "Causa 2d8 de dano físico em todos os inimigos num raio de 3m.",
+            "Inimigos devem passar em teste de REFLEXO (CD baseada no CORPO de Brendan) ou cair no chão.",
+            "Pode ser usado 1 vez por combate sem custo adicional; usos adicionais exigem 1 turno de preparação."
+        ],
+        "tags": [
+            "ataque",
+            "combate",
+            "área",
+            "força"
+        ],
+        "imagem": "img/habilidades/impacto_tita.webp"
+    },
+    {
+        "nome": "Mão Protetora",
+        "grau": "2",
+        "tipo": "Ativa / Reação",
+        "descricao": "Brendan pode interpor-se entre aliados e ataques, absorvendo dano com sua própria energia.",
+        "efeitos": [
+            "Quando um aliado a até 9m é alvo de ataque, Brendan pode gastar reação para receber metade do dano.",
+            "Enquanto ativado, ganha +1 ESPÍRITO temporário até o fim do próximo turno.",
+            "Não pode ser usado duas vezes consecutivas sem descanso curto."
+        ],
+        "tags": [
+            "proteção",
+            "combate",
+            "reação",
+            "defesa"
+        ],
+        "imagem": "img/habilidades/mao_protetora.webp"
+    },
+       {
+        "nome": "Intuição do Guardião",
+        "grau": "2",
+        "tipo": "Passiva",
+        "descricao": "Brendan sente perigos e armadilhas ao seu redor, mesmo antes de serem visíveis.",
+        "efeitos": [
+            "Pode detectar armadilhas, passagens secretas ou inimigos escondidos a até 10m.",
+            "Ganha +2 em testes de PERCEPÇÃO e REFLEXO relacionados a exploração.",
+            "Se estiver em território desconhecido, pode escolher refazer um teste de exploração falhado uma vez por dia."
+        ],
+        "tags": [
+            "exploração",
+            "passivo",
+            "detecção",
+            "intuição"
+        ],
+        "imagem": "img/habilidades/intuitao_guardiao.webp"
+    },
+    {
+        "nome": "Passos Silenciosos",
+        "grau": "2",
+        "tipo": "Ativa",
+        "descricao": "Brendan concentra seu controle corporal e espiritual para se mover sem fazer barulho, mesmo com armadura pesada.",
+        "efeitos": [
+            "Permite mover-se sem gerar som, ignorando penalidades de armaduras pesadas para furtividade.",
+            "Dura até o final do turno ou até o próximo ataque.",
+            "Enquanto ativo, testes de PERCEPÇÃO dos inimigos contra ele sofrem desvantagem."
+        ],
+        "tags": [
+            "exploração",
+            "furtividade",
+            "mobilidade",
+            "armadura pesada"
+        ],
+        "imagem": "img/habilidades/passos_silenciosos.webp"
+    },    {
+        "nome": "Mestre das Armaduras e Armas",
+        "grau": "3",
+        "tipo": "Especialista",
+        "descricao": "Brendan possui treinamento avançado em armaduras pesadas e armas titânicas, permitindo maximizar sua eficiência sem perder resistência nem mobilidade.",
+        "efeitos": [
+            "Reduz penalidades de mobilidade de armaduras pesadas em 50%.",
+            "Ganha +2 em ataques e testes de CORPO quando usa armas pesadas.",
+            "Pode avaliar e reparar armaduras ou armas com sucesso em testes de TÉCNICA (CD 15).",
+            "Durante combate, pode alternar rapidamente entre armas e escudos sem penalidade."
+        ],
+        "tags": [
+            "especialista",
+            "armas",
+            "armadura",
+            "profissão",
+            "combate"
+        ],
+        "imagem": "img/habilidades/mestre_armas_armaduras.webp"
+    }
+]
