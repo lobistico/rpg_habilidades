@@ -59,7 +59,7 @@ header::before {
 .logo {
     height: 80px;
     width: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     border: 3px solid var(--accent-color);
     box-shadow: 0 0 15px rgba(205, 133, 63, 0.5);
     transition: var(--transition);
